@@ -32,7 +32,7 @@ app.use("/api/News",NewsRoute);
 app.use("/api/Users",UserRoute);
 app.use("/api/Vaccine",VaccineRoute);
 app.use("/api/Firebase",Firebase);
-
+const PORT = process.env.port || 3000;
 app.listen(8700,()=>{
     console.log("Backend server running...");
 })
