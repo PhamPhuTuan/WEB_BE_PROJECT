@@ -9,7 +9,7 @@
   },
   "engines": {
     "node": "16.x"
-  }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PhamPhuTuan/WEB_BE_PROJECT.git"
